@@ -1,10 +1,10 @@
-# code-events-infrastructure-artifact
+# pythoneda-shared-artifact/code-events-infrastructure
 
-Artifact space for <https://github.com/pythoneda-shared-artifact/code-events-infrastructure>
+Definition of <https://github.com/pythoneda-shared-artifact/code-events-infrastructure>
 
 ## How to declare it in your flake
 
-Check the latest tag of the artifact repository: [https://github.com/pythoneda-shared-artifact/code-events-infrastructure-artifact/tags](https://github.com/pythoneda-shared-artifact/code-events-infrastructure-artifact/tags) and use it instead of the `[version]` placeholder below.
+Check the latest tag of this repository and use it instead of the `[version]` placeholder below.
 
 ```nix
 {
@@ -14,7 +14,7 @@ Check the latest tag of the artifact repository: [https://github.com/pythoneda-s
     pythoneda-shared-artifact-code-events-infrastructure = {
       [optional follows]
       url =
-        "github:pythoneda-shared-artifact/code-events-infrastructure-artifact/[version]?dir=code-events-infrastructure";
+        "github:pythoneda-shared-artifact-def/code-events-infrastructure/[version]";
     };
   };
   outputs = [..]
@@ -29,7 +29,3 @@ Use the specific package depending on your system (one of `flake-utils.lib.defau
 - `#packages.[system].pythoneda-shared-artifact-code-events-infrastructure-python39` 
 - `#packages.[system].pythoneda-shared-artifact-code-events-infrastructure-python310` 
 - `#packages.[system].pythoneda-shared-artifact-code-events-infrastructure-python311` 
-
-The Nix flake is under the 
-[infrastructure](https://github.com/pythoneda-shared-artifact/code-events-infrastructure-artifact/tree/main/code-events-infrastructure "code-events-infrastructure") folder in <https://github.com/pythoneda-shared-artifact/code-events-infrastructure-artifact>.
-
