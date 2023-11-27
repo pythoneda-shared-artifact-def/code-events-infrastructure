@@ -77,8 +77,8 @@
       let
         org = "pythoneda-shared-artifact";
         repo = "code-events-infrastructure";
-        version = "0.0.1";
-        sha256 = "0pgvmdsxcx4dj6msvv34vlj0r3sw6s9cpcj9qq30c215gzgpdm4g";
+        version = "0.0.2";
+        sha256 = "0dxwz6drx6j7arhhz6sf1a61hc7md1cyccbsyqf9p538mkd81l21";
         pname = "${org}-${repo}";
         pythonpackage = "pythoneda.shared.artifact.events.code.infrastructure";
         package = builtins.replaceStrings [ "." ] [ "/" ] pythonpackage;
