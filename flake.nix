@@ -29,7 +29,7 @@
         "pythoneda-shared-pythoneda-banner";
       inputs.pythoneda-shared-pythoneda-domain.follows =
         "pythoneda-shared-pythoneda-domain";
-      url = "github:pythoneda-shared-artifact-def/code-events/0.0.16";
+      url = "github:pythoneda-shared-artifact-def/code-events/0.0.17";
     };
     pythoneda-shared-code-requests-jupyterlab = {
       inputs.flake-utils.follows = "flake-utils";
@@ -38,7 +38,7 @@
         "pythoneda-shared-pythoneda-banner";
       inputs.pythoneda-shared-pythoneda-domain.follows =
         "pythoneda-shared-pythoneda-domain";
-      url = "github:pythoneda-shared-code-requests-def/jupyterlab/0.0.16";
+      url = "github:pythoneda-shared-code-requests-def/jupyterlab/0.0.17";
     };
     pythoneda-shared-nix-flake-shared = {
       inputs.flake-utils.follows = "flake-utils";
@@ -47,7 +47,7 @@
         "pythoneda-shared-pythoneda-banner";
       inputs.pythoneda-shared-pythoneda-domain.follows =
         "pythoneda-shared-pythoneda-domain";
-      url = "github:pythoneda-shared-nix-flake-def/shared/0.0.26";
+      url = "github:pythoneda-shared-nix-flake-def/shared/0.0.27";
     };
     pythoneda-shared-pythoneda-banner = {
       inputs.flake-utils.follows = "flake-utils";
@@ -68,7 +68,7 @@
         "pythoneda-shared-pythoneda-banner";
       inputs.pythoneda-shared-pythoneda-domain.follows =
         "pythoneda-shared-pythoneda-domain";
-      url = "github:pythoneda-shared-pythoneda-def/infrastructure/0.0.17";
+      url = "github:pythoneda-shared-pythoneda-def/infrastructure/0.0.19";
     };
   };
   outputs = inputs:
@@ -77,8 +77,8 @@
       let
         org = "pythoneda-shared-artifact";
         repo = "code-events-infrastructure";
-        version = "0.0.5";
-        sha256 = "043qclnpp3c2k4564xaw7r29481kfxrqgr67wd9igqyi4kkpllm3";
+        version = "0.0.6";
+        sha256 = "0m9zswyryk3y3v0m8zd6i2248qv5g920y0il4cn0690a40j17bz1";
         pname = "${org}-${repo}";
         pythonpackage = "pythoneda.shared.artifact.events.code.infrastructure";
         package = builtins.replaceStrings [ "." ] [ "/" ] pythonpackage;
