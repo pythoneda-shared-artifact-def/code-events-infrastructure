@@ -29,7 +29,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-shared-artifact-def/code-events/0.0.78";
+      url = "github:pythoneda-shared-artifact-def/code-events/0.0.80";
     };
     pythoneda-shared-code-requests-jupyterlab = {
       inputs.flake-utils.follows = "flake-utils";
@@ -38,7 +38,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-shared-code-requests-def/jupyterlab/0.0.77";
+      url = "github:pythoneda-shared-code-requests-def/jupyterlab/0.0.79";
     };
     pythoneda-shared-nix-flake-shared = {
       inputs.flake-utils.follows = "flake-utils";
@@ -47,19 +47,19 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-shared-nix-flake-def/shared/0.0.93";
+      url = "github:pythoneda-shared-nix-flake-def/shared/0.0.95";
     };
     pythoneda-shared-pythonlang-banner = {
       inputs.flake-utils.follows = "flake-utils";
       inputs.nixpkgs.follows = "nixpkgs";
-      url = "github:pythoneda-shared-pythonlang-def/banner/0.0.78";
+      url = "github:pythoneda-shared-pythonlang-def/banner/0.0.79";
     };
     pythoneda-shared-pythonlang-domain = {
       inputs.flake-utils.follows = "flake-utils";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.pythoneda-shared-pythonlang-banner.follows =
         "pythoneda-shared-pythonlang-banner";
-      url = "github:pythoneda-shared-pythonlang-def/domain/0.0.113";
+      url = "github:pythoneda-shared-pythonlang-def/domain/0.0.115";
     };
     pythoneda-shared-pythonlang-infrastructure = {
       inputs.flake-utils.follows = "flake-utils";
@@ -68,7 +68,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-shared-pythonlang-def/infrastructure/0.0.89";
+      url = "github:pythoneda-shared-pythonlang-def/infrastructure/0.0.91";
     };
   };
   outputs = inputs:
